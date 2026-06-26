@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+.explore-page{
+
+    padding:20px;
+    padding-bottom:150px;
+
+}
+
+.page-title{
+
+    text-align:center;
+    font-size:3rem;
+    margin:20px 0;
+
+}
+
+.search-bar{
+
+    width:100%;
+    height:48px;
+
+    border:none;
+    outline:none;
+
+    background:#444;
+    color:white;
+
+    border-radius:18px;
+
+    padding:0 18px;
+
+    font-size:1.1rem;
+
+    margin-bottom:30px;
+
+}
+
+.explore-page h2{
+
+    margin-bottom:18px;
+
+    font-size:2rem;
+
+}
+
+.chips{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:14px;
+
+}
+
+.chip{
+
+    border:none;
+
+    padding:14px 22px;
+
+    border-radius:999px;
+
+    background:#c61dff;
+
+    color:white;
+
+    font-size:1rem;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.chip.selected{
+
+    background:#26ff66;
+
+    color:#111;
+
+}
+
+.save-btn{
+
+    display:block;
+
+    margin:50px auto;
+
+    width:210px;
+
+    height:60px;
+
+    border-radius:999px;
+
+    background:#3a3a3a;
+
+    color:white;
+
+    border:6px solid #26ff66;
+
+    font-size:1.3rem;
+
+    cursor:pointer;
+
+}
+
+#bottomSheet{
+
+    position:fixed;
+
+    left:0;
+    right:0;
+    bottom:-200px;
+
+    height:130px;
+
+    background:#2a2a2a;
+
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+
+    transition:.35s;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:1000;
+
+}
+
+#bottomSheet.show{
+
+    bottom:0;
+
+}
+
+.sheet-handle{
+
+    width:70px;
+
+    height:6px;
+
+    border-radius:99px;
+
+    background:#777;
+
+    margin-bottom:18px;
+
+}
+
+#bottomSheet h3{
+
+    color:white;
+
+    font-size:1.3rem;
+
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ArtNov - Explora</title>
+
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/search.css">
+
+<link rel="stylesheet"
+href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+
+<link rel="stylesheet"
+href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+	
+	<link rel="stylesheet"
+href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+
+<link rel="stylesheet"
+href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+<link rel="stylesheet"
+href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css">
+	
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.bundle.css">
+
+</head>
+
+<body>
+
+<div class="app">
+	
+	<div id="overlay"></div>
+
+<aside id="sideMenu">
+
+    <div class="menu-top">
+
+        <div class="user-info">
+
+            <img
+            src="img/ghbhhh.png"
+            alt="Profile">
+
+            <div>
+
+                <h3>@Wild_Dreamer</h3>
+
+                <div class="stats">
+
+                    <span><b>25</b> Seguidos</span>
+                    <span><b>14</b> Seguidores</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="menu-dots">
+            <i class="fi fi-br-menu-dots"></i>
+        </button>
+
+    </div>
+
+    <div class="menu-items">
+
+		<a href="perfil.html">
+        <button>
+            <i class="fi fi-rr-user"></i>
+            Perfil
+        </button>
+		</a>
+
+        <button>
+            <i class="fi fi-sr-bookmark"></i>
+            Guardados
+        </button>
+
+        <button>
+            <i class="fi fi-rr-users"></i>
+            Comunidades
+        </button>
+
+        <button>
+            <i class="fi fi-rr-settings"></i>
+            Configuraciones
+        </button>
+
+        <div class="divider"></div>
+
+        <button>
+            <i class="fi fi-rr-interrogation"></i>
+            Centro de Ayuda
+        </button>
+
+    </div>
+
+</aside>
+
+<header>
+
+    <h1 class="page-title">Explora</h1>
+
+    <img
+    id="profileBtn"
+    class="profile"
+    src="img/ghbhhh.png"
+    alt="profile">
+
+</header>
+
+<main class="explore-page">
+
+    <input
+    class="search-bar"
+    type="text"
+    placeholder="Busca posts, users o feeds">
+
+    <h2>Tus intereses</h2>
+
+    <div class="chips">
+
+        <button class="chip">2D Art</button>
+        <button class="chip">3D Art</button>
+        <button class="chip">Videogame Art</button>
+        <button class="chip">Modeling</button>
+        <button class="chip">3D Animation</button>
+        <button class="chip">Music</button>
+        <button class="chip">VFX</button>
+        <button class="chip">Rigging</button>
+        <button class="chip">Photography</button>
+        <button class="chip">Doodling</button>
+        <button class="chip">Sketching</button>
+        <button class="chip">Color</button>
+        <button class="chip">Illustration</button>
+        <button class="chip">Abstract</button>
+        <button class="chip">AMVs</button>
+
+    </div>
+
+    <button id="saveBtn" class="save-btn">
+        Guardar
+    </button>
+
+</main>
+
+<button class="fab" onClick="location.href='crear-publicacion.html'">
+    <i class="fi fi-br-paint-brush"></i>
+</button>
+
+<nav class="bottom-nav">
+
+    <button data-page="home" onClick="location.href='ArtNov - Home.html'">
+        <i class="fi fi-sr-home"></i>
+    </button>
+
+    <button class="active" data-page="search">
+        <i class="fi fi-sr-search"></i>
+    </button>
+
+    <button data-page="notifications" onClick="location.href='ArtNov - Home.html'">
+        <i class="fi fi-sr-bell"></i>
+    </button>
+
+    <button data-page="messages" onClick="location.href='Chats 1.html'">
+        <i class="fi fi-sr-comment-alt"></i>
+    </button>
+
+</nav>
+
+<div id="bottomSheet">
+
+    <div class="sheet-handle"></div>
+
+    <h3>✔ Intereses guardados</h3>
+
+</div>
+
+<script src="js/navigation.js"></script>
+<script src="js/search.js"></script>
+<script src="js/script.js"></script>
+
+	</div>
+</body>
+</html>

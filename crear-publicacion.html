@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Crear Publicación</title>
+    <link rel="stylesheet" href="css/crear-publicacion.css">
+
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+</head>
+
+<body>
+
+    <div class="phone">
+
+        <header class="top-bar">
+            <button class="cancelar" onClick="location.href='ArtNov - Home.html'">Cancelar</button>
+            <button class="publicar" onClick="location.href='ArtNov - Home.html'">Publicar</button>
+        </header>
+
+        <section class="create-area">
+            <img src="img/ghbhhh.png" class="avatar" alt="Avatar">
+
+            <textarea id="descripcion" placeholder="¡Da una pequeña descripcion de tu obra muestra!"></textarea>
+        </section>
+
+        <section id="preview-area" class="preview-area"></section>
+
+        <section class="tags-area">
+            <input type="text" id="tagInput" placeholder="Agregar hashtag o categoria">
+            <button id="addTag">Agregar</button>
+        </section>
+
+        <div id="tagList" class="tag-list"></div>
+
+        <hr>
+
+        <section class="settings">
+
+            <div class="setting-row">
+                <span>Comentarios</span>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="setting-row">
+                <span>Recuento de likes</span>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="setting-row">
+                <span>Compartir</span>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="setting-row">
+                <span>Promocionar post</span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+        </section>
+
+        <footer class="bottom-tools">
+
+            <label for="imageUpload">
+                <i class="fi fi-rr-picture"></i>
+            </label>
+
+            <label for="imageUpload">
+                <i class="fi fi-rr-camera"></i>
+            </label>
+
+            <button>
+                <i class="fi fi-rr-document"></i>
+            </button>
+
+            <button>
+                <i class="fi fi-rr-comment-alt"></i>
+            </button>
+
+            <button>
+                <i class="fi fi-rr-menu-dots"></i>
+            </button>
+
+            <button class="plus">
+                <i class="fi fi-rr-plus"></i>
+            </button>
+
+            <input type="file" id="imageUpload" accept="image/*" multiple hidden>
+
+        </footer>
+
+    </div>
+
+    <script src="js/crear-publicacion.js"></script>
+</body>
+</html>
